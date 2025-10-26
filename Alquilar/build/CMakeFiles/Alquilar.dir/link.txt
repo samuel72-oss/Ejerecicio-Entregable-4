@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Alquilar.dir/src/Vehiculo.cpp.o CMakeFiles/Alquilar.dir/src/Carro.cpp.o CMakeFiles/Alquilar.dir/src/Bicicleta.cpp.o CMakeFiles/Alquilar.dir/src/main.cpp.o -o Alquilar 
