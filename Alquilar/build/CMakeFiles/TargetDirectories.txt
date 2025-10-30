@@ -1,3 +1,0 @@
-/home/squesada/Ejercicios../Alquilar/build/CMakeFiles/Alquilar.dir
-/home/squesada/Ejercicios../Alquilar/build/CMakeFiles/edit_cache.dir
-/home/squesada/Ejercicios../Alquilar/build/CMakeFiles/rebuild_cache.dir

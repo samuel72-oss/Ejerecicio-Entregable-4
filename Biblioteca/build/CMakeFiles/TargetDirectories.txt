@@ -1,3 +1,0 @@
-/home/squesada/Ejercicios../Biblioteca/build/CMakeFiles/biblioteca.dir
-/home/squesada/Ejercicios../Biblioteca/build/CMakeFiles/edit_cache.dir
-/home/squesada/Ejercicios../Biblioteca/build/CMakeFiles/rebuild_cache.dir
