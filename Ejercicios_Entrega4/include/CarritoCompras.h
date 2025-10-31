@@ -2,6 +2,7 @@
 #define CARRITOCOMPRAS_H
 
 #include <iostream>
+#include "Itemcarrito.h"
 #include <string>
 using namespace std;
 
@@ -12,7 +13,7 @@ class CarritoCompras {
         int numItems;
         
         CarritoCompras(Itemcarrito,int,int);
-        void agregar();
+        void agregar(producto p, int cantidad);
         void eliminar();
         void factura();
 };
