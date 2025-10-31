@@ -1,6 +1,14 @@
 #include "DispositivoInteligente.h"
 #include <vector>
 
+/**
+ * \brief Función principal del programa.
+ * 
+ * Permite al usuario registrar una cantidad de dispositivos inteligentes,
+ * controlar su encendido, apagado o bloqueo, y finalmente mostrar una factura
+ * con el consumo total de energía de cada dispositivo.
+ */
+
 int main(){
     int a;
     int i=0;
