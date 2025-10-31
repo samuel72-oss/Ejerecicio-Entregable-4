@@ -1,3 +1,0 @@
-/home/squesada/Ejercicios../Parcial_Punto4/build/CMakeFiles/Parcial_Punto4.dir
-/home/squesada/Ejercicios../Parcial_Punto4/build/CMakeFiles/edit_cache.dir
-/home/squesada/Ejercicios../Parcial_Punto4/build/CMakeFiles/rebuild_cache.dir
