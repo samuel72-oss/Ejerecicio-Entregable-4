@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Ejercicios_Entrega4.dir/src/Main.cpp.o CMakeFiles/Ejercicios_Entrega4.dir/src/CarritoCompras.cpp.o CMakeFiles/Ejercicios_Entrega4.dir/src/Itemcarrito.cpp.o CMakeFiles/Ejercicios_Entrega4.dir/src/producto.cpp.o CMakeFiles/Ejercicios_Entrega4.dir/src/usuario.cpp.o -o Ejercicios_Entrega4 

@@ -12,9 +12,10 @@ class CarritoCompras {
         int totalArticulos;
         int numItems;
         
+        CarritoCompras();
         CarritoCompras(Itemcarrito,int,int);
-        void agregar(producto p, int cantidad);
-        void eliminar();
+        void agregar(producto prod, int cantidad);
+        void eliminar(int posicion);
         void factura();
 };
 

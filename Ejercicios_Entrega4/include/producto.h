@@ -11,6 +11,7 @@ class producto {
         float precio;
         int stock;
     
+        producto();
         producto(string,float,int);
         void mostrar();
 };

@@ -94,9 +94,11 @@ int main() {
         } else if (opcion == 5) {
             carrito1.factura();
             if (carrito1.numItems > 0) {
-                user1.historialCompras[user1.numCompras] = carrito1;
-                user1.numCompras++;
-                cout << "\n¡Compra registrada en el historial!" << endl;
+                if(user1.numCompras < 50){
+                    user1.historialCompras[user1.numCompras] = carrito1;
+                    user1.numCompras++;
+                    cout << "\n¡Compra registrada en el historial!" << endl;
+                }
             }
             cout << "\n¿Desea ver el historial de compras? (1=Sí, 0=No): ";
             int verHistorial;
@@ -110,7 +112,7 @@ int main() {
         } else if (opcion == 6) {
             cout << "\n¡Gracias por su compra!" << endl;
         } else {
-            cout << "\nOpción inválida. Intente de nuevo." << endl;
+            cout << "\nOpción inválida, Intente de nuevo." << endl;
         }
     }
     

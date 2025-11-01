@@ -11,6 +11,7 @@ class Itemcarrito {
         producto prod;
         int cantidad;
     
+        Itemcarrito();
         Itemcarrito(producto,int);
         void mostrarItem();
 };

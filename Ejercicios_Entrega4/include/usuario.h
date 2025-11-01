@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include "CarritoCompras.h"
 using namespace std;
 
 class usuario {
@@ -14,6 +15,7 @@ class usuario {
         int numCompras;
 
         usuario(string,string,int,CarritoCompras,int);
+        usuario(string, string, int);
         void historial();
 };
 

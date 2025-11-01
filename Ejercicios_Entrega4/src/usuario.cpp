@@ -1,5 +1,12 @@
 #include "usuario.h"
 
+usuario::usuario(string _nombre, string _apellido, int _cedula,CarritoCompras _carrito, int _total) {
+    nombre = _nombre;
+    apellido = _apellido;
+    cedula = _cedula;
+    historialCompras[0] = _carrito;
+    numCompras = 1;
+}
 usuario::usuario(string _nombre, string _apellido, int _cedula) {
     nombre = _nombre;
     apellido = _apellido;
@@ -7,7 +14,7 @@ usuario::usuario(string _nombre, string _apellido, int _cedula) {
     numCompras = 0;
 }
     
-void historial() {
+void usuario::historial() {
     cout << "\n========================================" << endl;
     cout << "        HISTORIAL DE COMPRAS            " << endl;
     cout << "========================================" << endl;

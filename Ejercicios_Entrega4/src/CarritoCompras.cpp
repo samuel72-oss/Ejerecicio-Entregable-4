@@ -4,8 +4,14 @@ CarritoCompras::CarritoCompras() {
         totalArticulos = 0;
         numItems = 0;
 }
+
+CarritoCompras::CarritoCompras(Itemcarrito item, int n, int total) {
+    items[0] = item;
+    numItems = n;
+    totalArticulos = total;
+}
     
-void agregar(producto p, int cantidad) {
+void CarritoCompras::agregar(producto prod, int cantidad) {
     if (cantidad <= 0) {
         cout << "\nError: La cantidad debe ser mayor a 0" << endl;
         return;
@@ -40,7 +46,7 @@ void agregar(producto p, int cantidad) {
     }
 }
     
-void eliminar(int posicion) {
+void CarritoCompras::eliminar(int posicion) {
     if (posicion < 1 || posicion > numItems) {
         cout << "\nPosición inválida." << endl;
         return;
@@ -60,7 +66,7 @@ void eliminar(int posicion) {
     cout << "\n¡Producto eliminado del carrito!" << endl;
 }
     
-void factura() {
+void CarritoCompras::factura() {
     cout << "\n========================================" << endl;
     cout << "           FACTURA DE COMPRA            " << endl;
     cout << "========================================" << endl;
